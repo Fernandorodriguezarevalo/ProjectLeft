@@ -38,9 +38,63 @@ public class Main {
         System.out.println();*/
 
         //Control de flujo de programa
-        for(int i = 0; i < 10; i++){
-            System.out.println("i vale: " +i);
+        /*for(int i = 0; i < 10; i++){
+            System.out.println("i vale: " +i);            
+        }*/
+
+
+
+        /*Scanner scanner = new Scanner (System.in);
+        for(int i = 0; i < 5; i++){
+            String nom;
+            System.out.println("Ingresa tu nombre: ");
+            nom = scanner.nextLine();
+            System.out.println("Nombre: "+nom);
+        }*/
+
+        /*Scanner scanner = new Scanner (System.in);
+        for(int i= 0; i < 3; i++){
+            int num1;
+            System.out.println("Ingresa un numero: ");
+            num1 = scanner.nextInt();
+            System.out.println("Numero1: "+num1);
+        }*/
+
+        /*Scanner scanner = new Scanner (System.in);
+        int num1,num2;
+        int suma;
+        for(int i = 0; i < 6; i++){
+
+            System.out.println("Ingresa un numero 1: ");
+            num1 = scanner.nextInt();
+            System.out.println("Ingresa un numero 2: ");
+            num2 = scanner.nextInt();
+            suma = num1 + num2;
+            System.out.println("La suma es: "+suma);
+
+        }*/
+
+        /*Scanner scanner = new Scanner (System.in);
+        int edad;
+
+        for(int i = 0; i < 4; i++){
+            System.out.println("Ingresa tu edad: ");
+            edad = scanner.nextInt();
+            System.out.println("Tu edad es: "+edad);
+            if( edad > 17){
+                System.out.println("Es mayor de edad: ");
+            }else{
+                    System.out.println("Es menor de edad");
+                }
+
+        }*/
+        Scanner miescaner = new Scanner(System.in);
+        double miArraydouble[] = new double[7];
+        for(int i = 0; i < 7; i ++){
+            miArraydouble[i] = miescaner.nextDouble();
         }
+
+
 
 
 

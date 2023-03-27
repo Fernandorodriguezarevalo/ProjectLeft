@@ -1,0 +1,2 @@
+Definición de Pull según google en "Git": Se emplea para extraer y descargar contenido desde un repositorio 
+remoto y actualizar al instante el repositorio local para reflejar ese contenido.
